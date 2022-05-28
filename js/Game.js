@@ -40,7 +40,7 @@ class Game {
 
   /**
    * Handles onscreen keyboard button clicks
-   * @param (HTMLButtonElement) button - The clicked button element
+   * @param (htmlElement) button - The clicked button element
    */
   handleInteraction(htmlElement) {
     const bntText = htmlElement.textContent;
